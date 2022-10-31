@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Telerik_app.MainPage"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <!-- Sing up -->
+            <Grid x:Name="ContinueGrid" BackgroundColor="#e7e8ea" WidthRequest="400" HeightRequest="450" IsVisible="true" VerticalOptions="Center" Margin="0,50,0,0">
+
+                <Label Text="Profile" TextColor="Black" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,20,0,0"/>
+
+                <Image Source="user.png" WidthRequest="100" HeightRequest="100" VerticalOptions="Start" Margin="0,80,0,0"/>
+                
+                <Button x:Name="ContinueBtn" Text="Continue" TextColor="White" FontSize="20" BackgroundColor="MediumBlue" WidthRequest="300" HeightRequest="50" VerticalOptions="End" Margin="0,0,0,50" CornerRadius="25" Clicked="CountinueBtn_Clicked"/>
+
+                <!-- Username -->
+                <Grid VerticalOptions="Center" Margin="0,20,0,0" WidthRequest="295" HeightRequest="40">
+                    
+                    <Border 
+                        Stroke="#505050">
+
+                        <Border.StrokeShape>
+
+                            <RoundRectangle CornerRadius="0"/>
+
+                        </Border.StrokeShape>
+
+                    </Border>
+                    <Entry BackgroundColor="Transparent" TextColor="Black" Placeholder="Username" PlaceholderColor="LightGrey" HorizontalTextAlignment="Start"/>
+                </Grid>
+
+            </Grid>
+
+            <!-- .NET MAUI Selections -->
+
+            <Grid x:Name="SelectionsGrid" BackgroundColor="#212121" IsVisible="false" WidthRequest="390" HeightRequest="850" VerticalOptions="Center" HorizontalOptions="Center">
+
+                <Label Text="Selections" TextColor="White" FontSize="Header" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,20,0,0"/>
+
+                <Button x:Name="UserInterfaceBtn" Clicked="UserInterfaceBtn_Clicked" Text="User Interface" TextColor="Black" FontSize="Medium" ImageSource="userinterface_img.png" BorderColor="Black" BorderWidth="1.5" CornerRadius="0" WidthRequest="270" HeightRequest="70"  HorizontalOptions="Center" VerticalOptions="Center" Margin="0,100,0,0" BackgroundColor="White"/>
+
+                <Button x:Name="FundamentalsBtn" Clicked="FundamentalsBtn_Clicked" Text="Fundamentals" TextColor="Black" FontSize="Medium" ImageSource="fundamentals_img.png" BorderColor="Black" BorderWidth="1.5" CornerRadius="0" WidthRequest="270" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,0,100" BackgroundColor="White"/>
+
+                <!-- Menu -->
+                <Grid BackgroundColor="White" WidthRequest="390" HeightRequest="60" HorizontalOptions="Start" VerticalOptions="End">
+                
+                <Button BackgroundColor="Transparent" ImageSource="lock_back_arrow.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="End"/>
+
+                <Button BackgroundColor="Transparent" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="End" Margin="78,0,0,0"/>
+
+                <Button BackgroundColor="Transparent" ImageSource="lock_home_btn.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,1,0"/>
+
+                <Button x:Name="ProfileBtn" Clicked="ProfileBtn_Clicked" BackgroundColor="Transparent" ImageSource="user.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,78,0"/>
+
+                <Button x:Name="SettingsBtn" Clicked="SettingsBtn_Clicked" BackgroundColor="Transparent" ImageSource="settings_img.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="End" VerticalOptions="End"/>
+                
+                </Grid>
+            
+            </Grid>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

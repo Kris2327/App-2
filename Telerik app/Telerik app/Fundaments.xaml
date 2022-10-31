@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Telerik_app.Fundaments"
+             Title=""
+             Background="White">
+    <VerticalStackLayout>
+        
+        <!-- Fundamentals Label Grid -->
+        <Grid BackgroundColor="Transparent" WidthRequest="500" HeightRequest="70" HorizontalOptions="Center" VerticalOptions="Center" Margin="200,25,0,0">
+            <Label Text="Fundamentals" TextColor="Black" FontSize="Header" />
+        </Grid>
+
+        <!-- Fundamentals Selections Grid -->
+        <Grid BackgroundColor="Transparent" WidthRequest="390" HeightRequest="350" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,10,0,0">
+            
+            <Button Text="First steps" TextColor="Black" BorderColor="Black" BorderWidth="1" CornerRadius="0" FontSize="Medium" BackgroundColor="White" ImageSource="firststeps_img.png" WidthRequest="380" HeightRequest="50" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,15,0,0"/>
+
+            <Button Text="Templates" TextColor="Black" BorderColor="Black" BorderWidth="1" CornerRadius="0" FontSize="Medium" BackgroundColor="White" ImageSource="templates_img.png" WidthRequest="380" HeightRequest="50" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,90"/>
+
+            <Button Text="Data Binding" TextColor="Black" BorderColor="Black" BorderWidth="1" CornerRadius="0" FontSize="Medium" BackgroundColor="White" ImageSource="databinding_img.png" WidthRequest="380" HeightRequest="50" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,90,0,0"/>
+
+            <Button Text="Test" TextColor="Black" BorderColor="Black" BorderWidth="1" CornerRadius="0" FontSize="Medium" BackgroundColor="White" ImageSource="test_pencil_img.png" WidthRequest="380" HeightRequest="50" VerticalOptions="End" HorizontalOptions="Center" Margin="0,0,0,15"/>
+            
+        </Grid>
+
+        <!-- Menu -->
+        <Grid BackgroundColor="Transparent" WidthRequest="390" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="End">
+
+            <Button x:Name="FundamentalsBackBtn" Clicked="FundamentalsBackBtn_Clicked" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" ImageSource="menu_back_arrow.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="End"/>
+
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="Start" VerticalOptions="End" Margin="78,0,0,0"/>
+
+            <Button x:Name="FundamentalsHomeBtn" Clicked="FundamentalsHomeBtn_Clicked" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" ImageSource="home_btn.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,1,0"/>
+
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" ImageSource="user.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="End" VerticalOptions="End" Margin="0,0,78,0"/>
+
+            <Button BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" ImageSource="settings_img.png" ContentLayout="0" WidthRequest="78" HeightRequest="60" CornerRadius="0" HorizontalOptions="End" VerticalOptions="End"/>
+
+        </Grid>
+
+    </VerticalStackLayout>
+</ContentPage>
