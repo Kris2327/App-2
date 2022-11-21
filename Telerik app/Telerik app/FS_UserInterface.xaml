@@ -2,44 +2,78 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Telerik_app.FS_UserInterface"
-             Title=""
-             BackgroundColor="#212121">
-    <VerticalStackLayout>
+             Title="Questions"
+             Style="{StaticResource page}">
 
-        <!-- Questions/Progress -->
-            <Grid BackgroundColor="BlueViolet" WidthRequest="1140" HeightRequest="90" Margin="0,0,0,20">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Settings" IconImageSource="settings_img.png" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
 
-            <Label x:Name="questionlbl" Text="Question: 1/7" TextColor="White" VerticalOptions="Start" FontSize="25" HorizontalOptions="End" Margin="0,0,0,0" WidthRequest="300"/>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label" x:Key="lbl">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light=#212121, Dark=White}"/>
+            </Style>
 
-            <Label Text="Progress:" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,0,0,0" FontSize="16"/>
+            <Style TargetType="ContentPage" x:Key="page">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=White, Dark=#212121}"/>
+            </Style>
 
-            <ProgressBar x:Name="progressBar" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,50,0,0" Progress="0" ProgressColor="Lime" BackgroundColor="White" WidthRequest="150"/>
+            <Style TargetType="ProgressBar" x:Key="pr">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#212121, Dark=White}"/>
+            </Style>
+        </ResourceDictionary>    
+    </ContentPage.Resources>
 
-        </Grid>
+    <ScrollView>
+        <VerticalStackLayout>
 
-        <!-- Next/Previos Buttons -->
-        <Grid HeightRequest="70" WidthRequest="500" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,300,0,0">
-        <Button
+            <!-- Questions/Progress -->
+            <Grid BackgroundColor="Transparent" WidthRequest="350" HeightRequest="90" Margin="0,-30,0,20">
+
+                <Label Text="1/7 Questions" Style="{StaticResource lbl}" FontSize="18" HorizontalOptions="End" VerticalOptions="Center"/>
+
+                <Label Text="Progress:" Style="{StaticResource lbl}" VerticalOptions="Center" HorizontalOptions="Start" Margin="0,0,0,0" FontSize="18"/>
+
+                <ProgressBar x:Name="progressBar" VerticalOptions="Center" HorizontalOptions="Start" Margin="80,5,0,0" ProgressColor="Lime" WidthRequest="100"/>
+
+            </Grid>
+
+            <Grid WidthRequest="350" HeightRequest="650">
+                <!--Questions make-->
+                <Label x:Name="First_Text" Text="First Steps" FontSize="20" Style="{StaticResource lbl}" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,-20,0,0"/>
+
+                <Image x:Name="IMage1" WidthRequest="50" HeightRequest="50" Source="" HorizontalOptions="Center" VerticalOptions="Start" Margin="0,50,0,0"/>
+
+                <Label x:Name="Second_Text" Text="orlinsspodofohohoiojpe" Style="{StaticResource lbl}" VerticalOptions="Start" Margin="0,100,0,0"/>
+            </Grid>
+            <!-- Next/Previos Buttons -->
+            <Grid HeightRequest="70" WidthRequest="300" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,0,0,0">
+                <Button
             x:Name="NextBtn"
             Text="Next"
             TextColor="White"
             Background="BlueViolet"
             VerticalOptions="Center"
-            WidthRequest="190"
+            WidthRequest="140"
             HeightRequest="40"
-            Margin="225,0,0,0"
+            Margin="180,20,0,0"
+            Clicked="NextBtn_Clicked"
             />
 
-        <Button
+                <Button
             Text="Previous"
             TextColor="White"
             Background="#353535"
             VerticalOptions="Center"
-            WidthRequest="190"
+            WidthRequest="140"
             HeightRequest="40"
-            Margin="0,0,225,0"
+            Margin="50,20,225,0"
+            Clicked="Button_Clicked"
             />
-        </Grid>
-        
-    </VerticalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>

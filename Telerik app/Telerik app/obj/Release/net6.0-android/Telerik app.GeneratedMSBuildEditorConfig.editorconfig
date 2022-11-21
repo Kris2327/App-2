@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableSingleFileAnalyzer = false
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Telerik_app
+build_property.ProjectDir = D:\APP-main\Telerik app\Telerik app\
+
+[D:/APP-main/Telerik app/Telerik app/AboutAppPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.AboutAppPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutAppPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutAppPage.xaml
+
+[D:/APP-main/Telerik app/Telerik app/AboutUsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.AboutUsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutUsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutUsPage.xaml
+
+[D:/APP-main/Telerik app/Telerik app/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/APP-main/Telerik app/Telerik app/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/APP-main/Telerik app/Telerik app/DataBinding_Fundamentals.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.DataBinding_Fundamentals.xaml
+build_metadata.AdditionalFiles.TargetPath = DataBinding_Fundamentals.xaml
+build_metadata.AdditionalFiles.RelativePath = DataBinding_Fundamentals.xaml
+
+[D:/APP-main/Telerik app/Telerik app/FS_UserInterface.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.FS_UserInterface.xaml
+build_metadata.AdditionalFiles.TargetPath = FS_UserInterface.xaml
+build_metadata.AdditionalFiles.RelativePath = FS_UserInterface.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Fundaments.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Fundaments.xaml
+build_metadata.AdditionalFiles.TargetPath = Fundaments.xaml
+build_metadata.AdditionalFiles.RelativePath = Fundaments.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Layouts_UserInterface.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Layouts_UserInterface.xaml
+build_metadata.AdditionalFiles.TargetPath = Layouts_UserInterface.xaml
+build_metadata.AdditionalFiles.RelativePath = Layouts_UserInterface.xaml
+
+[D:/APP-main/Telerik app/Telerik app/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Pages_UserInterface.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Pages_UserInterface.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages_UserInterface.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages_UserInterface.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings.xaml
+
+[D:/APP-main/Telerik app/Telerik app/Templates_Fundamentals.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.Templates_Fundamentals.xaml
+build_metadata.AdditionalFiles.TargetPath = Templates_Fundamentals.xaml
+build_metadata.AdditionalFiles.RelativePath = Templates_Fundamentals.xaml
+
+[D:/APP-main/Telerik app/Telerik app/UserInterface.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.UserInterface.xaml
+build_metadata.AdditionalFiles.TargetPath = UserInterface.xaml
+build_metadata.AdditionalFiles.RelativePath = UserInterface.xaml
+
+[D:/APP-main/Telerik app/Telerik app/ViewsP1_UserInterface.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.ViewsP1_UserInterface.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsP1_UserInterface.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsP1_UserInterface.xaml
+
+[D:/APP-main/Telerik app/Telerik app/ViewsP2_UserInterface.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Telerik_app.ViewsP2_UserInterface.xaml
+build_metadata.AdditionalFiles.TargetPath = ViewsP2_UserInterface.xaml
+build_metadata.AdditionalFiles.RelativePath = ViewsP2_UserInterface.xaml

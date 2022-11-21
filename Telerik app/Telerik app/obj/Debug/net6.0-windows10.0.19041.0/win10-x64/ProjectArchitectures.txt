@@ -1,1 +1,0 @@
-C:\Програмиране\Telerik app\Telerik app\Telerik app.csproj;x64

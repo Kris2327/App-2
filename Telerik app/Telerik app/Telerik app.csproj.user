@@ -10,20 +10,44 @@
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="DataBinding_Fundamentals.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="FS_UserInterface.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Fundaments.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Profile.xaml">
+    <MauiXaml Update="AboutAppPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="AboutUsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Layouts_UserInterface.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages_UserInterface.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Settings.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Templates_Fundamentals.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="UserInterface.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ViewsP1_UserInterface.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="ViewsP2_UserInterface.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

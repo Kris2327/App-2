@@ -7,13 +7,18 @@ public partial class Fundaments : ContentPage
 		InitializeComponent();
 	}
 
-	private async void FundamentalsHomeBtn_Clicked(object sender, EventArgs e)
-	{
-		await Navigation.PopAsync();
-	}
+    private async void SettingsBtn_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Settings());
+    }
 
-	private async void FundamentalsBackBtn_Clicked(object sender, EventArgs e)
-	{
-		await Navigation.PopAsync();
-	}
+    private async void TemplatesBtn_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Templates_Fundamentals());
+    }
+
+    private async void DataBindingBtn_Clicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new DataBinding_Fundamentals());
+    }
 }

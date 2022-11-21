@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+1ayQdgvZJ4rA7HoGmdGnnYjUGG+jcMTmI3MFh/V4dG6bsV3nxdmZNI0YZXaGpMA1xiJ4j04QCYU4sdRqVYcxQ==",
+  "dgSpecHash": "6muQj0hjstW156bAd+cd9FccgRI07CluxRI2f0RZrk/a9huNGkC28D1xIi5zIOiRVwk5CwN0VDZLLlDYG2YUQg==",
   "success": true,
-  "projectFilePath": "C:\\Програмиране\\Telerik app\\Telerik app\\Telerik app.csproj",
+  "projectFilePath": "D:\\APP-main\\Telerik app\\Telerik app\\Telerik app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ralica Peycheva\\.nuget\\packages\\googlegson\\2.9.0.1\\googlegson.2.9.0.1.nupkg.sha512",
     "C:\\Users\\Ralica Peycheva\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
